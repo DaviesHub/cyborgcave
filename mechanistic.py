@@ -1,11 +1,10 @@
 import matplotlib.pyplot as plt
 import pandas as pd
 import numpy as np
-import matplotlib.pyplot as plt
 import seaborn as sns
 sns.set()
 
-data = pd.read_csv("mechanisticdata.csv")
+data = pd.read_csv("data/mechanisticdata.csv")
 
 data_past = data[:416]
 data_test = data[416:]

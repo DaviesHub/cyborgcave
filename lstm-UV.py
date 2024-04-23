@@ -12,7 +12,7 @@ from keras.metrics import MeanAbsoluteError
 #import xlsxwriter
 
 # Load the dataset from the Excel CSV file
-csv_file_path = "NNdataset.csv"
+csv_file_path = "data/NNdataset.csv"
 df = pd.read_csv(csv_file_path)
 
 steam = df['CUM_Steam']
