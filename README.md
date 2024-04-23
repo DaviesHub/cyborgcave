@@ -32,5 +32,5 @@ Contributions to the project are welcome. Please submit a pull request with your
 ## Acknowledgement
 I would like to acknowledge the following individuals for their contributions and support:
 - Special thanks to my supervisors Antony Higginson, Prof. Kevin Brooks, and Prof. Philip de Vaal for their contributions to the mechanistic and linear time series.
-- Special thanks to Greg Hogg for his invaluable contributions to the neural network time series models.
+- Special thanks to Greg Hogg (https://github.com/gahogg) for his invaluable contributions to the neural network time series models.
 
