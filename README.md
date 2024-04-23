@@ -28,3 +28,7 @@ Package requirements for this app can be seen in the requirements.txt file. Inst
 
 ## Contributions
 Contributions to the project are welcome. Please submit a pull request with your changes.
+
+## Acknowledgement
+Special thanks to Greg Hogg for his invaluable contributions to the neural network time series modelling.
+
