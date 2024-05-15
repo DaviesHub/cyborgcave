@@ -142,8 +142,8 @@ plt.show()
 
 # Test set
 plt.figure(figsize=(9, 5))
-plt.plot(y_test, label='Actual Test Data', marker='x', markersize=3, linestyle='-', color='blue')
-plt.plot(test_predictions, label='Forecasts', marker='o', markersize=3, linestyle='-', color='red')
+plt.plot(range(416, 416+len(y_test)), y_test, label='Actual Test Data', marker='x', markersize=3, linestyle='-', color='blue')
+plt.plot(range(416, 416+len(test_predictions)), test_predictions, label='Forecasts', marker='o', markersize=3, linestyle='-', color='red')
 plt.title('GRU-UV(4) Model Forecast vs Actual Data')
 plt.xlabel('Batch Number')
 plt.ylabel('Steam Demand (tonne)')
